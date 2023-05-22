@@ -145,8 +145,12 @@ html,body{
     align-items: center;
     text-align: center;
 }
-#setas .seta-eq, .seta-dir img{
-    padding: 20px;
+#setas .seta-eq img{
+    /* padding: 10px; */
+    cursor: pointer;
+}
+#setas .seta-dir img{
+    /* padding: 10px; */
     cursor: pointer;
 }
 
@@ -212,12 +216,12 @@ html,body{
     }
     .container-card {
         text-align: center;
-        width: 15rem;
+        width: 20rem;
         height: 400px;
         padding: 0px;
     }
     .container-card .titulo{
-        font-size: 1rem;
+        font-size: 1.2rem;
         line-height: 1rem;
     }
     .container-img{
@@ -242,8 +246,13 @@ html,body{
         font-size: 1rem;
         line-height: 1.5rem;
     }
-    #setas .seta-eq, .seta-dir img{
-        padding: 0px;
+    #setas .seta-eq img{
+        width: 1rem;
+        height: 2rem;
+    }
+    #setas .seta-dir img{
+        width: 1rem;
+        height: 2rem;
     }
 
     #btn-carrossel button{
